@@ -1,0 +1,22 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Course datasets and generated outputs
+all_datasets/*
+!all_datasets/.gitkeep
+results/*
+!results/.gitkeep
+
+# Local environment files
+.env
+.env.*
+!.env.example
